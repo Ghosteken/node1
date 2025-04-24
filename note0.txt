@@ -1,0 +1,172 @@
+**140-Day Node.js Backend Developer Roadmap**
+
+---
+
+### **Days 1-20: Core Node.js**
+1. Node.js Intro & Architecture — Build a "Hello World" HTTP server.
+2. npm & Project Structure — Init project, install `express`.
+3. Modules (CommonJS/ES6) — Create reusable math module.
+4. File System Module — Read/write files asynchronously.
+5. Events & EventEmitter — Build a basic event-driven app.
+6. Streams & Buffers — Copy files using streams.
+7. HTTP Module — Create a REST API without Express.
+8. URLs & Query Strings — Return responses based on query params.
+9. Environment Variables — Use `.env` with `dotenv`.
+10. Global Objects & Timers — Log info using `setInterval`.
+11. Basic Express Server — Set up Express with one route.
+12. Express Routing — Implement RESTful routes.
+13. Express Middleware — Log requests via custom middleware.
+14. Error Handling in Express — Add centralized error handler.
+15. Static Files in Express — Serve static HTML/CSS.
+16. Templating with EJS — Render dynamic pages.
+17. Event Loop — Visualize event loop with logs.
+18. Async Patterns — Use Promises over callbacks.
+19. Async/Await — Rewrite logic with `async/await`.
+20. Node Debugging — Debug using Node Inspector.
+
+---
+
+### **Days 21-40: Advanced Node.js & Express**
+21. Express Router — Organize routes into modules.
+22. REST API Design — Build CRUD API for products.
+23. Request Validation — Use `express-validator`.
+24. Logging with Winston — Log errors and requests.
+25. Configuration — Manage with `config` package.
+26. CORS & Security Headers — Use Helmet and configure CORS.
+27. Rate Limiting — Prevent abuse with `express-rate-limit`.
+28. Dependency Injection — Basics and benefits in Node.
+29. Advanced Error Handling — Handle async errors.
+30. Background Jobs — Use `node-cron` for scheduling.
+31. File Uploads — Use `multer` for uploads.
+32. Sending Emails — Nodemailer integration.
+33. PDF Generation — Use `pdfkit` to generate PDFs.
+34. WebSocket with Socket.io — Real-time chat feature.
+35. Clustering & Performance — Use Node cluster module.
+36. Child Processes — Run tasks in separate threads.
+37. Worker Threads — Execute CPU-heavy logic.
+38. Process Management — Use PM2 for production.
+39. Nginx Reverse Proxy — Setup with Nginx.
+40. HTTPS in Node — Add SSL to local server.
+
+---
+
+### **Days 41–60: Databases (MongoDB + MySQL)**
+41. Intro to MongoDB — Install and run local MongoDB.
+42. MongoDB CRUD — Use `mongodb` native driver.
+43. Mongoose Basics — Define schema & models.
+44. Mongoose Queries — Filters, projections, population.
+45. Relationships in MongoDB — Referencing documents.
+46. MongoDB Indexes — Improve query performance.
+47. Aggregations — Run stats with aggregation pipeline.
+48. Transactions in MongoDB — ACID operations.
+49. MySQL Basics — Setup, schema design.
+50. MySQL Queries — Basic SQL: SELECT, INSERT, JOIN.
+51. ORM with Prisma — Setup and use with Node.js.
+52. Schema Relationships — One-to-many, many-to-many.
+53. Validations & Constraints — SQL checks and rules.
+54. Query Builders — Use Knex.js for query building.
+55. Indexes & Performance — Optimize DB queries.
+56. Connection Pooling — Efficient MySQL usage.
+57. Raw Queries — Execute raw SQL with Prisma.
+58. Transactions — Handle multi-query logic.
+59. Backups & Restores — Dump and import DB.
+60. DB Hosting — Deploy to Railway or PlanetScale.
+
+---
+
+### **Days 61–80: Authentication & Authorization**
+61. Auth Overview — Tokens vs Sessions.
+62. User Registration — Hash passwords with `bcrypt`.
+63. JWT Authentication — Implement login with JWT.
+64. Auth Middleware — Protect routes.
+65. Role-Based Access — Differentiate admin/user.
+66. Refresh Tokens — Handle long-lived sessions.
+67. Session-Based Auth — Use `express-session`.
+68. OAuth2 with Google — Use `passport-google-oauth`.
+69. OTP Login — One-time password logic.
+70. Email Verification — Send activation links.
+71. Forgot Password — Send reset links.
+72. Two-Factor Authentication — TOTP with `speakeasy`.
+73. Rate Limit Login — Protect login endpoint.
+74. Brute-force Protection — Monitor failed attempts.
+75. CSRF Protection — Use `csurf` middleware.
+76. Secure Cookies — Set httpOnly, sameSite.
+77. CORS Policies — Restrict origins properly.
+78. Helmet Setup — Secure HTTP headers.
+79. HTTPS Only — Force HTTPS in production.
+80. Audit Logging — Track auth events.
+
+---
+
+### **Days 81–100: Testing & DevOps**
+81. Unit Testing with Jest — Test simple functions.
+82. API Testing with Supertest — Test Express endpoints.
+83. Mocking — Simulate DB/API calls.
+84. Test Coverage — Measure with `jest --coverage`.
+85. Integration Testing — Test multiple modules.
+86. E2E Testing — Use Playwright or Cypress.
+87. CI/CD Basics — GitHub Actions intro.
+88. Linting — Enforce rules with ESLint.
+89. Prettier — Auto-format code.
+90. Husky & Lint-Staged — Pre-commit hooks.
+91. Docker Basics — Containerize your Node app.
+92. Docker Compose — Multi-container setups.
+93. Writing Dockerfile — Use multi-stage builds.
+94. Image Optimization — Reduce image size.
+95. Deploy to Render/Vercel — One-click deploy.
+96. Deploy to VPS (Ubuntu) — Manual deploy steps.
+97. PM2 for Node — Keep app alive & monitor.
+98. Nginx Setup — Reverse proxy config.
+99. Domain Setup — Link to a custom domain.
+100. Load Balancing — Round-robin with Nginx.
+
+---
+
+### **Days 101–120: Advanced Architecture & APIs**
+101. Clean Code Principles — SOLID, DRY, KISS.
+102. Layered Architecture — Split code: controllers/services/repos.
+103. Service-Oriented Design — Loose coupling.
+104. Monolith vs Microservices — Pros and cons.
+105. API Rate Limiting — Protect APIs under load.
+106. Caching with Redis — Improve response speed.
+107. Pub/Sub with Redis — Realtime updates.
+108. Queue with BullMQ — Background task queues.
+109. Throttling & Debouncing — Handle repeated requests.
+110. Versioning APIs — Maintain backward compatibility.
+111. Swagger/OpenAPI — Document your API.
+112. Postman Collections — Share and test APIs.
+113. Monitoring with Prometheus — Collect metrics.
+114. Logs to ElasticSearch — Centralized logging.
+115. Health Checks — Readiness & liveness endpoints.
+116. Circuit Breakers — Prevent cascading failures.
+117. Retry Logic — Retry failed API calls.
+118. Rate-Limiting with Redis — Centralized control.
+119. Real-Time APIs — WebSocket patterns.
+120. GraphQL Basics — Schema, queries, resolvers.
+
+---
+
+### **Days 121–140: System Design & Scaling**
+121. Intro to System Design — Key concepts.
+122. High Availability — Multi-instance architecture.
+123. Load Balancers — Scaling horizontally.
+124. Caching Strategy — Write-through vs write-around.
+125. Database Sharding — Scale data writes.
+126. Replication — Master-slave DB replication.
+127. Consistency Models — Eventual vs Strong.
+128. CAP Theorem — Understanding trade-offs.
+129. CDN Integration — Speed up static content.
+130. Rate-Limit at Gateway — API gateway rules.
+131. API Gateway — Nginx, Kong, etc.
+132. Database Migrations — Safe schema changes.
+133. Blue-Green Deployments — Safer releases.
+134. Canary Releases — Gradual rollouts.
+135. Autoscaling — Scale on traffic.
+136. Metrics & Observability — Use Grafana.
+137. Error Tracking — Use Sentry.
+138. Logging Standards — Structure logs.
+139. Security Audit — Code and dependency checks.
+140. Final Project — Build a production-grade API system.
+
+
+
