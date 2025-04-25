@@ -1,0 +1,580 @@
+**140-Day Python DSA Roadmap**
+
+---
+
+### **Days 1–10: Python Essentials & Foundations**
+
+---
+
+### **Day 1: Python Basics — Input/Output, Variables, Data Types**
+
+**Concept**: Understanding the foundation of Python syntax: declaring variables, reading inputs, printing outputs, and using basic data types (integers, floats, strings, booleans).
+
+**Practice Questions**:
+1. Write a program to take two integers as input and print their sum.
+2. Read a string from the user and print whether its length is even or odd.
+
+---
+
+### **Day 2: Conditional Statements (if/else/elif)**
+
+**Concept**: Decision-making using conditional statements is the backbone of logic implementation in algorithms. Learn how to control flow based on conditions.
+
+**Practice Questions**:
+1. Write a program that checks if a given number is positive, negative, or zero.
+2. Take three numbers and print the largest among them.
+
+---
+
+### **Day 3: Loops (for, while)**
+
+**Concept**: Loops allow you to repeat actions. `for` is typically used with sequences, `while` with conditions. Learn loop control with `break` and `continue`.
+
+**Practice Questions**:
+1. Print all even numbers between 1 and 100.
+2. Calculate the factorial of a number using a `while` loop.
+
+---
+
+### **Day 4: Lists & List Comprehension**
+
+**Concept**: Lists store ordered, mutable collections. Learn how to create, access, update, and iterate over them. Comprehensions are a Pythonic way to create new lists.
+
+**Practice Questions**:
+1. Create a list of squares of numbers from 1 to 10 using list comprehension.
+2. Count how many numbers in a list are greater than a given value.
+
+---
+
+### **Day 5: Strings & String Methods**
+
+**Concept**: Strings are immutable sequences of characters. Learn slicing, searching, replacing, and formatting using Python's built-in string methods.
+
+**Practice Questions**:
+1. Check if a string is a palindrome.
+2. Count the frequency of each character in a string.
+
+---
+
+### **Day 6: Tuples & Sets**
+
+**Concept**: Tuples are immutable and can store heterogeneous data. Sets are unordered collections of unique elements — great for membership checks.
+
+**Practice Questions**:
+1. Find the intersection of two sets.
+2. Convert a list with duplicates to a tuple of unique elements.
+
+---
+
+### **Day 7: Dictionaries & Dictionary Methods**
+
+**Concept**: Dictionaries store key-value pairs. Useful for fast lookups, counting, and grouping data.
+
+**Practice Questions**:
+1. Create a dictionary that counts the frequency of each word in a string.
+2. Merge two dictionaries and update values.
+
+---
+
+### **Day 8: Functions & Parameters**
+
+**Concept**: Functions allow code reuse. Understand how to define, call, and return values. Learn default and keyword arguments.
+
+**Practice Questions**:
+1. Write a function that returns the maximum of three numbers.
+2. Write a function that takes a list and returns the sum of even numbers.
+
+---
+
+### **Day 9: Recursion Basics**
+
+**Concept**: A function that calls itself to solve smaller sub-problems. Master recursion base case and recursive case structure.
+
+**Practice Questions**:
+1. Compute the nth Fibonacci number recursively.
+2. Recursively reverse a string.
+
+---
+
+### **Day 10: Lambda, Map, Filter, Reduce**
+
+**Concept**: Python's anonymous functions (lambda) work great with `map`, `filter`, and `reduce` for functional-style operations.
+
+**Practice Questions**:
+1. Use `map` to double each number in a list.
+2. Use `filter` to keep only the prime numbers in a list.
+
+---
+
+### **Days 11–20: Arrays, Searching, and Sorting**
+
+---
+
+### **Day 11: Arrays — Traversal and Basic Operations**
+**Concept**: Arrays (lists in Python) are the foundation of DSA. Learn indexing, updating, and iterating over arrays.
+
+**Practice Questions**:
+1. Find the maximum and minimum elements in a list.
+2. Check if a list is sorted in ascending order.
+
+---
+
+### **Day 12: Linear Search**
+**Concept**: A straightforward way to find an element in a list by checking each item sequentially.
+
+**Practice Questions**:
+1. Implement linear search to find a target element.
+2. Count how many times a value appears in a list.
+
+---
+
+### **Day 13: Binary Search (Iterative)**
+**Concept**: Efficient search algorithm for sorted lists that cuts the search space in half each step.
+
+**Practice Questions**:
+1. Implement iterative binary search.
+2. Find the first occurrence of a target element.
+
+---
+
+### **Day 14: Binary Search (Recursive)**
+**Concept**: Recursively apply binary search by adjusting low and high pointers.
+
+**Practice Questions**:
+1. Implement recursive binary search.
+2. Find the position of a number in a rotated sorted array.
+
+---
+
+### **Day 15: Sorting — Bubble Sort**
+**Concept**: A simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+
+**Practice Questions**:
+1. Implement bubble sort.
+2. Count the number of swaps needed to sort a list.
+
+---
+
+### **Day 16: Sorting — Selection Sort**
+**Concept**: Divides the list into sorted and unsorted, selecting the smallest (or largest) each time.
+
+**Practice Questions**:
+1. Implement selection sort.
+2. Sort a list in descending order using selection sort.
+
+---
+
+### **Day 17: Sorting — Insertion Sort**
+**Concept**: Builds the sorted list one item at a time by inserting elements into their correct position.
+
+**Practice Questions**:
+1. Implement insertion sort.
+2. Sort a partially sorted list efficiently.
+
+---
+
+### **Day 18: Sorting — Merge Sort**
+**Concept**: A divide-and-conquer sorting algorithm with O(n log n) complexity.
+
+**Practice Questions**:
+1. Implement merge sort.
+2. Count the number of inversions in an array.
+
+---
+
+### **Day 19: Sorting — Quick Sort**
+**Concept**: Picks a pivot and partitions the array around it; efficient on average.
+
+**Practice Questions**:
+1. Implement quick sort.
+2. Find the kth largest element using quick select.
+
+---
+
+### **Day 20: Built-in Sorting & Custom Sort Functions**
+**Concept**: Python's `sorted()` and `.sort()` with `key` and `reverse` parameters.
+
+**Practice Questions**:
+1. Sort a list of tuples by the second value.
+2. Sort a list of strings by length.
+
+---
+
+### **Days 21–30: Stacks, Queues, Linked Lists**
+
+---
+
+### **Day 21: Introduction to Stacks**
+**Concept**: Stacks follow the LIFO (Last In, First Out) principle. Learn push, pop, and peek operations using lists.
+
+**Practice Questions**:
+1. Implement a stack using a list.
+2. Check for balanced parentheses in a string.
+
+---
+
+### **Day 22: Stack Applications**
+**Concept**: Stacks are used in parsing, expression evaluation, and backtracking problems.
+
+**Practice Questions**:
+1. Evaluate a postfix expression.
+2. Convert infix to postfix notation.
+
+---
+
+### **Day 23: Introduction to Queues**
+**Concept**: Queues follow the FIFO (First In, First Out) principle. Learn how to implement using `collections.deque`.
+
+**Practice Questions**:
+1. Implement a queue using deque.
+2. Simulate a ticket counter queue.
+
+---
+
+### **Day 24: Queue Applications**
+**Concept**: Queues are used in BFS, task scheduling, and simulation problems.
+
+**Practice Questions**:
+1. Implement a circular queue.
+2. Generate binary numbers from 1 to N using a queue.
+
+---
+
+### **Day 25: Introduction to Linked Lists**
+**Concept**: A linear data structure with nodes pointing to the next. Learn node creation, traversal, and insertion.
+
+**Practice Questions**:
+1. Implement a singly linked list with insertion.
+2. Reverse a linked list.
+
+---
+
+### **Day 26: Linked List Operations**
+**Concept**: Deletion, searching, and more insertion methods in singly linked lists.
+
+**Practice Questions**:
+1. Delete a node with a given key.
+2. Find the middle element of a linked list.
+
+---
+
+### **Day 27: Doubly Linked List**
+**Concept**: Each node points to both next and previous nodes for easier bidirectional traversal.
+
+**Practice Questions**:
+1. Implement a doubly linked list.
+2. Reverse a doubly linked list.
+
+---
+
+### **Day 28: Circular Linked List**
+**Concept**: The last node points to the first, forming a loop. Useful in round-robin scheduling.
+
+**Practice Questions**:
+1. Implement a circular singly linked list.
+2. Insert at the beginning of a circular linked list.
+
+---
+
+### **Day 29: Detecting Loops in Linked Lists**
+**Concept**: Use Floyd’s Cycle Detection Algorithm (tortoise and hare) to detect loops.
+
+**Practice Questions**:
+1. Detect if a linked list has a loop.
+2. Find the starting node of a loop in a linked list.
+
+---
+
+### **Day 30: Linked List Practice Problems**
+**Concept**: Reinforce concepts through problem-solving.
+
+**Practice Questions**:
+1. Merge two sorted linked lists.
+2. Check if a linked list is a palindrome.
+
+---
+
+### **Days 31–40: Recursion & Backtracking**
+
+---
+
+### **Day 31: Recursion vs Iteration**
+**Concept**: Compare recursion and iteration in terms of performance and readability. When to use what.
+
+**Practice Questions**:
+1. Print numbers from N to 1 using recursion and iteration.
+2. Calculate power(x, n) recursively and iteratively.
+
+---
+
+### **Day 32: Backtracking Introduction**
+**Concept**: Explore problems where decisions are made step-by-step and backtracked when needed.
+
+**Practice Questions**:
+1. Solve the N-Queens problem.
+2. Find all subsets of a given set.
+
+---
+
+### **Day 33: Permutations and Combinations**
+**Concept**: Generate permutations and combinations using recursion and backtracking.
+
+**Practice Questions**:
+1. Print all permutations of a string.
+2. Generate all combinations of k numbers out of 1 to n.
+
+---
+
+### **Day 34: Rat in a Maze Problem**
+**Concept**: Solve a grid-based backtracking pathfinding problem.
+
+**Practice Questions**:
+1. Find all paths from top-left to bottom-right in a maze.
+2. Add constraints (no diagonal, block cells) to the maze problem.
+
+---
+
+### **Day 35: Sudoku Solver**
+**Concept**: Use backtracking to solve constraint satisfaction problems.
+
+**Practice Questions**:
+1. Solve a partially filled Sudoku board.
+2. Print all possible Sudoku solutions.
+
+---
+
+### **Day 36: Word Search**
+**Concept**: Use backtracking to search for words in a 2D character grid.
+
+**Practice Questions**:
+1. Check if a word exists in the board.
+2. Return all words that can be formed in the board.
+
+---
+
+### **Day 37: M-Coloring Problem**
+**Concept**: Assign colors to nodes of a graph such that no two adjacent nodes share the same color.
+
+**Practice Questions**:
+1. Check if M colors can be used to color a graph.
+2. Print all valid colorings of the graph.
+
+---
+
+### **Day 38: Hamiltonian Path and Cycle**
+**Concept**: Explore Hamiltonian paths using backtracking.
+
+**Practice Questions**:
+1. Determine if a Hamiltonian Path exists.
+2. Print a Hamiltonian Cycle if one exists.
+
+---
+
+### **Day 39: Knights Tour**
+**Concept**: Move a knight to every cell exactly once using backtracking.
+
+**Practice Questions**:
+1. Print a knight's tour on an N x N board.
+2. Count total knight tours possible.
+
+---
+
+### **Day 40: Backtracking Practice**
+**Concept**: Review through combined backtracking challenges.
+
+**Practice Questions**:
+1. Solve a magic square of size N.
+2. Combination sum problem.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Here’s the content for **Days 41 to 60** of your **140-Day Python DSA Roadmap**:
+
+---
+
+### **Days 41–60: Strings, Math & Bit Manipulation**
+
+---
+
+### **Day 41: String Pattern Matching (Naive & KMP Algorithm)**  
+**Concept**: Learn basic and efficient techniques to find substrings within strings. The KMP algorithm improves performance with preprocessing.
+
+**Practice Questions**:  
+1. Implement KMP string matching algorithm.  
+2. Find all occurrences of a pattern in a given string.
+
+---
+
+### **Day 42: Anagram Check & Grouping Anagrams**  
+**Concept**: Two strings are anagrams if they contain the same characters in the same frequency.
+
+**Practice Questions**:  
+1. Check if two strings are anagrams.  
+2. Group a list of strings into anagram groups.
+
+---
+
+### **Day 43: Longest Common Prefix & Suffix**  
+**Concept**: Useful in parsing and bioinformatics, these patterns help in comparing strings.
+
+**Practice Questions**:  
+1. Find the longest common prefix in a list of strings.  
+2. Find the longest common suffix of two strings.
+
+---
+
+### **Day 44: String Compression & Run-Length Encoding**  
+**Concept**: Compress strings by counting consecutive characters.
+
+**Practice Questions**:  
+1. Compress a string using run-length encoding.  
+2. Decompress a run-length encoded string.
+
+---
+
+### **Day 45: Valid Palindrome & Palindromic Substrings**  
+**Concept**: Palindromes read the same backward and forward. Key for pattern recognition and optimization.
+
+**Practice Questions**:  
+1. Check if a string is a palindrome ignoring non-alphanumeric characters.  
+2. Count all palindromic substrings in a string.
+
+---
+
+### **Day 46: Math — GCD & LCM**  
+**Concept**: GCD (Greatest Common Divisor) and LCM (Least Common Multiple) are basic number theory tools.
+
+**Practice Questions**:  
+1. Find the GCD and LCM of two numbers.  
+2. Find GCD of a list of numbers.
+
+---
+
+### **Day 47: Sieve of Eratosthenes & Prime Numbers**  
+**Concept**: Efficiently generate all primes up to a limit using the Sieve of Eratosthenes.
+
+**Practice Questions**:  
+1. Generate all primes less than N.  
+2. Count primes in a given range.
+
+---
+
+### **Day 48: Modular Arithmetic & Modular Exponentiation**  
+**Concept**: Modulo operations are crucial in competitive programming and cryptography.
+
+**Practice Questions**:  
+1. Compute (a^b) % m efficiently.  
+2. Solve large modular equations like (a*b) % m.
+
+---
+
+### **Day 49: Bit Manipulation Basics**  
+**Concept**: Work with binary representations directly for optimization.
+
+**Practice Questions**:  
+1. Count the number of 1s in the binary representation of a number.  
+2. Check if a number is a power of two.
+
+---
+
+### **Day 50: Bitmasking Techniques**  
+**Concept**: Use bits to represent and operate on sets.
+
+**Practice Questions**:  
+1. Generate all subsets of a set using bitmasking.  
+2. Solve the "Maximum XOR of two numbers" problem.
+
+---
+
+### **Day 51: Number of Set Bits (Hamming Weight)**  
+**Concept**: Counting 1s in binary representation is common in optimization and security.
+
+**Practice Questions**:  
+1. Count the total number of set bits from 1 to N.  
+2. Count differing bits in two integers.
+
+---
+
+### **Day 52: Binary Representation & Conversion**  
+**Concept**: Learn how to convert numbers between binary and decimal.
+
+**Practice Questions**:  
+1. Convert decimal to binary and vice versa.  
+2. Add two binary numbers represented as strings.
+
+---
+
+### **Day 53: Power of Two, Four & Bit Tricks**  
+**Concept**: Certain bit patterns can help identify powers of two, four, etc.
+
+**Practice Questions**:  
+1. Check if a number is a power of four using bit tricks.  
+2. Count how many numbers ≤ N are powers of two.
+
+---
+
+### **Day 54: XOR Properties & Applications**  
+**Concept**: XOR is powerful for toggling and detecting differences.
+
+**Practice Questions**:  
+1. Find the missing number in an array of 1 to N.  
+2. Find the element that appears only once when others appear twice.
+
+---
+
+### **Day 55: Fast Exponentiation & Modulo Inverse**  
+**Concept**: Speed up calculations for large powers under modulus.
+
+**Practice Questions**:  
+1. Implement binary exponentiation.  
+2. Compute modular inverse using Fermat's Little Theorem.
+
+---
+
+### **Day 56: Counting Digits & Digit Sum**  
+**Concept**: Work with number digits using mathematical manipulation.
+
+**Practice Questions**:  
+1. Count the number of digits in a number without converting to string.  
+2. Find the sum of digits of a number.
+
+---
+
+### **Day 57: Armstrong Numbers & Number Properties**  
+**Concept**: Work with digit-level number properties.
+
+**Practice Questions**:  
+1. Check if a number is an Armstrong number.  
+2. Find all 3-digit Armstrong numbers.
+
+---
+
+### **Day 58: Base Conversions**  
+**Concept**: Convert between different number bases (binary, octal, decimal, hexadecimal).
+
+**Practice Questions**:  
+1. Convert a decimal number to base b.  
+2. Convert a base-b number to decimal.
+
+---
+
+### **Day 59: Prime Factorization**  
+**Concept**: Decompose a number into its prime factors.
+
+**Practice Questions**:  
+1. Return the prime factors of a number in ascending order.  
+2. Count distinct prime factors of all numbers in a list.
+
+---
+
+### **Day 60: Math & Bit Manipulation Practice**  
+**Concept**: Reinforce all math and bit manipulation concepts.
+
+**Practice Questions**:  
+1. Given a list, return the element that appears only once where every other element appears three times.  
+2. Find the number of subsets with a given XOR value.
+
+---
+
+Let me know when you’re ready for **Days 61–80** or want this section in PDF!
